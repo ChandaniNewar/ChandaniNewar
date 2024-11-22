@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo2.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times"onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"onclick="showMenu()"></i>
+        </nav>
+    <h1>Our Certificate and online programme for 2024</h1>
+    </section>
+    <!-- blog page comment  -->
+     <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+            <img src="https://as1.ftcdn.net/v2/jpg/02/75/21/02/1000_F_275210237_2lsO5s4vnCjQFeAfzOVUslLx0K6BDgF6.jpg">
+            <h2>Our Certificates & online programs for 2024</h2>
+            <p>Certificate Program Overview
+                
+                Our certificate program offers a focused and intensive educational experience designed to equip students with the practical skills and knowledge necessary for success in their chosen field. The program typically spans [insert duration, e.g., six months, one year] and is structured to provide a blend of theoretical insights and hands-on training.
+                
+                Key Features:
+                
+                Specialized Curriculum: Tailored courses that cover essential topics and emerging trends in the industry, ensuring students stay relevant in a rapidly changing job market.
+                
+                Expert Instructors: Learn from experienced professionals and industry leaders who bring real-world insights into the classroom.</p><br>
+                
+               <p>Flexible Learning Options: Choose from in-person, online, or hybrid formats to fit your schedule and learning style.
+                
+                Capstone Project: Apply what you’ve learned in a practical project that showcases your skills to potential employers.
+                
+                Networking Opportunities: Connect with peers and industry professionals through workshops, seminars, and networking events.
+                
+                Career Outcomes:
+                
+                Graduates of the certificate program are well-prepared to pursue various career paths, including [insert relevant job titles or fields]. The certificate is recognized by employers as a testament to your commitment to professional development and expertise in your area of study.
+                
+                Admission Requirements:
+                
+                To enroll in our certificate program, applicants must meet [insert any prerequisites, e.g., educational background, work experience].
+                
+                </p>
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="text" placeholder='Enter Email'>
+                        <textarea rows="5" placeholder="your comment"></textarea>
+                        <button type="submit" class="hero btn red-btn">Post Comment</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>24</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>14</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>34</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>33</span>
+                </div>
+            </div>
+        </div>
+
+     </section>
+     
+    
+          <!-- footer -->
+           <section class="footer">
+            <h4>Our Courses</h4>
+            <p></p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-linkedin"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-twitter"></i>
+            </div>
+           </section>
+        <!-- -----javascript for toggle menu---- -->
+    <script>
+        var navLinks =document.getElementbyId("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+    
+</body>
+</html>

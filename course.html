@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo2.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times"onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"onclick="showMenu()"></i>
+        </nav>
+    <h1>Our Courses</h1>
+    </section>
+    <!-- course  -->
+     
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <div class="row">
+            <div class="course-col">
+        
+        <h3>Arts and Humanities</h3>
+            1.Introduction to Philosophy<br>
+            2.Art History<br>
+            3.Creative Writing<br>
+            4.Cultural Anthropology<br>
+            5.Music Theory<br>
+            </div>
+        
+          <div class="course-col">
+           <h3> Social Sciences<h3>
+           <p> Psychology 101<br>
+            Sociology of Families<br>
+            International Relations<br>
+            Political Theory<br>
+            Economic Principles<br>
+            </p>
+        </div>
+            <div class="course-col">
+            <h3>Natural Sciences</h3>
+            General Biology<br>
+            Chemistry for Life Sciences<br>
+            Physics I: Mechanics<br>
+            Environmental Science<br>
+            Introduction to Geology<br>
+            </p>
+            </div>
+            <div class="course-col">
+            <h3>Engineering and Technology<h3>
+            <p>Introduction to Computer Science<br>
+            Engineering Mechanics<br>
+            Digital Electronics<br>
+            Data Structures and Algorithms<br>
+            Web Development Fundamentals<br>
+            </p>
+        </div>
+        <div class="course-col">
+            <h3>Business and Economics</h3>
+            <p>Principles of Marketing<br>
+            Financial Accounting<br>
+            Business Law<br>
+            Microeconomics<br>
+            Entrepreneurship<br>
+            </p>
+            </div>
+        </section>
+        <!-- facilites -->
+        <section class="facilities">
+            <h1>Our facilities</h1>
+             <p> the facilities provided are well</p>
+             <div class="row">
+                <div class="facilities-col">
+                    <img src="https://casambi.com/wp-content/uploads/2020/05/oxford-university-library-lighting-control-2-1300x1389.jpg">
+                    <h3> World Class Library</h3>
+                    <p>Knowledge is power</p>
+                    </div>
+                    <div class="facilities-col">
+                        <img src="https://media.istockphoto.com/id/473330162/photo/college-level-track-stadium-puffy-clouds-blue-sky.jpg?s=612x612&w=0&k=20&c=lYSWPuJmJOlZi2auwe3eTL-uLXkJqiZE5wM6qc4LMQA=">
+                        <h3>Best Sportsmenship</h3>
+                        <p>being the fisttest</p>
+                        </div>
+                        <div class="facilities-col">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFfL-9qsKx9d935tbVZAzEdLe1lxb7EF_6aQ&s">
+                            <h3>Huge Cafeteria</h3>
+                            <p>having a break</p>
+                            </div>   
+             </div>
+        </section>
+          <!-- footer -->
+           <section class="footer">
+            <h4>Our Courses</h4>
+            <p></p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-linkedin"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-twitter"></i>
+            </div>
+           </section>
+        <!-- -----javascript for toggle menu---- -->
+    <script>
+        var navLinks =document.getElementbyId("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+    
+</body>
+</html>
